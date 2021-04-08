@@ -6,13 +6,13 @@ import java.util.LinkedList;
 public class Conta {
     public String nomeUtilizador;
     public float saldo;
-    private ArrayList<Movimentos> movimentos;
+    private ArrayList<Movimento> movimentos;
 
 
     public Conta(String nomeUtilizador, float saldo) {
         this.nomeUtilizador = nomeUtilizador;
         this.saldo = saldo;
-        this.movimentos = new ArrayList<Movimentos>();
+        this.movimentos = new ArrayList<Movimento>();
     }
 
     public String getNomeUtilizador() {
@@ -23,7 +23,7 @@ public class Conta {
         return saldo;
     }
 
-    public ArrayList<Movimentos> getMovimentos() {
+    public ArrayList<Movimento> getMovimentos() {
         return movimentos;
     }
 
