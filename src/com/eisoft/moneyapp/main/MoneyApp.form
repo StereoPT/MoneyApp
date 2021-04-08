@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.eisoft.moneyapp.main.MoneyApp">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="896"/>
+    </constraints>
+    <properties>
+      <maximumSize width="414" height="700"/>
+      <minimumSize width="414" height="700"/>
+      <preferredSize width="414" height="700"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="5fa95" binding="barraCima" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <minimumSize width="311" height="40"/>
+          <preferredSize width="311" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
