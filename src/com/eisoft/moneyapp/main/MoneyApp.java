@@ -5,6 +5,12 @@ import javax.swing.*;
 public class MoneyApp extends JFrame {
     private JPanel mainPanel;
     private JPanel barraCima;
+    private JLabel tracos;
+    private JLabel pontos;
+    private JLabel nomeapp;
+    private JLabel saldo;
+    private JLabel saldoValor;
+    private JButton button1;
 
     private static String title = "MoneyApp";
 

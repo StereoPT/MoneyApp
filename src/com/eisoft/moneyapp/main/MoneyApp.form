@@ -18,7 +18,68 @@
           <preferredSize width="311" height="40"/>
         </properties>
         <border type="none"/>
-        <children/>
+        <children>
+          <component id="1a770" class="javax.swing.JLabel" binding="tracos">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="com/eisoft/moneyapp/resources/3tracos.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7db83" class="javax.swing.JLabel" binding="pontos">
+            <constraints border-constraint="East"/>
+            <properties>
+              <icon value="com/eisoft/moneyapp/resources/3pontinhos.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dc70f" class="javax.swing.JLabel" binding="nomeapp">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="MoneyApp"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="bec1e" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Before"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7a6fc" class="javax.swing.JLabel" binding="saldo">
+            <constraints border-constraint="North"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Saldo"/>
+            </properties>
+          </component>
+          <component id="1f2c5" class="javax.swing.JLabel" binding="saldoValor">
+            <constraints border-constraint="West"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="100" height="16"/>
+              <minimumSize width="100" height="16"/>
+              <preferredSize width="100" height="16"/>
+              <text value="0,0€"/>
+              <verticalAlignment value="1"/>
+            </properties>
+          </component>
+          <component id="c30b1" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="20" height="20"/>
+              <minimumSize width="20" height="20"/>
+              <preferredSize width="50" height="20"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
       </grid>
     </children>
   </grid>
