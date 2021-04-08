@@ -1,4 +1,4 @@
-package com.eisoft.moneyapp;
+package com.eisoft.moneyapp.models;
 
 public class Conta {
     public String nomeUtilizador;
